@@ -90,13 +90,6 @@ echo "$wdd/schedule_mailer.sh s $wdir/$udate"body.txt" $mailaddressf $mailaddres
 at now $length -f $wdir/$udate".job"
 }
 
-
-#Sending Mail
-#function smail {
-
-#}
-
-
 #Main Functionality
 if [ "$1" == "a" ]; then
 	addmail
